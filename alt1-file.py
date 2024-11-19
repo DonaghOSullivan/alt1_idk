@@ -7,7 +7,7 @@ import subprocess
 
 
 process = subprocess.Popen([
-    "streamlit", "run", "StreamLit_Alt1.py",
+    "streamlit", "run", "alt1-file.py",
     "--server.port", "769",
     "--server.headless", "true"
 ])
